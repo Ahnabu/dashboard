@@ -96,7 +96,7 @@ const Top = () => {
                     }
                 </div>
             </div>
-            <div className='bg-primary'>
+            <div className='bg-primary rounded-2xl'>
                 <p>Traffic</p>
                 <Example />
                 <div className='flex justify-around'>

@@ -14,7 +14,7 @@ export default class Example extends PureComponent {
 
     render() {
         return (
-            <PieChart width={320} height={400} onMouseEnter={this.onPieEnter}>
+            <PieChart width={320} height={360} onMouseEnter={this.onPieEnter}>
                 <Pie
                     data={data}
                     cx={120}
