@@ -97,7 +97,31 @@ const Top = () => {
                 </div>
             </div>
             <div className='bg-primary'>
-              <Example/>
+                <p>Traffic</p>
+                <Example />
+                <div className='flex justify-around'>
+                    <div>
+                        <h1 className='text-3xl'>33%</h1>
+                        <div className='flex gap-2 items-center'>
+                            <span className='w-2 h-2 rounded-full bg-[#9A52DA]'></span>
+                            <p>Facebook</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 className='text-3xl'>55%</h1>
+                        <div className='flex gap-2 items-center'>
+                            <span className='w-2 h-2 rounded-full bg-red-500'></span>
+                            <p>Youtube</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 className='text-3xl'>12%</h1>
+                        <div className='flex gap-2 items-center'>
+                            <span className='w-2 h-2 rounded-full bg-[#0466C2]'></span>
+                            <p>Direct Search</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>

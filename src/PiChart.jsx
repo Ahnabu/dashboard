@@ -1,5 +1,5 @@
 import  { PureComponent } from 'react';
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
+import { PieChart, Pie, Cell,Text } from 'recharts';
 
 const data = [
     { name: 'Facebook', value: 330 },
@@ -28,6 +28,18 @@ export default class Example extends PureComponent {
                     {data.map((entry, index) => (
                         <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                     ))}
+                    <svg
+                        width={100} // Adjust size as needed
+                        height={100} // Adjust size as needed
+                        viewBox="0 0 100 100"
+                    // style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)' }}
+                    >
+
+                        <Text dominantBaseline="central" textAnchor="middle">
+                            Your Text Here
+                        </Text>
+
+                    </svg>
                 </Pie>
                
             </PieChart>
