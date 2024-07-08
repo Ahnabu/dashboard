@@ -26,7 +26,8 @@ a:hover {
 }
 
 body {
-  margin: 0;
+  max-width: 1280px;
+  margin: 0 auto;
   display: flex;
   place-items: center;
   min-width: 320px;
