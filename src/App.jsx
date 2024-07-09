@@ -1,5 +1,6 @@
 
 import './App.css'
+import Bottom from './Bottom'
 import Middle from './Middle'
 import Navbar from './Navbar'
 import Sidebar from './Sidebar'
@@ -21,6 +22,7 @@ function App() {
           {/* stats  */}
       <Middle/>
           {/* tables */}
+          <Bottom/>
         </div>
 
       </div>

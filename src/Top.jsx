@@ -46,7 +46,7 @@ const Top = () => {
                             <p> Current months earning</p>
                             <h2 className='text-4xl mt-5 '>82</h2>
                             <p>Current months sales</p>
-                            <button className='bg-gradient-to-l from-[#E3488A] to-[#C5519C] rounded-2xl mt-5'>
+                            <button className='bg-gradient-to-l from-[#E3488A] to-[#C5519C] rounded-2xl mt-5 text-sm px-3 py-3'>
                                 Last Month Summary
                             </button>
                         </div>
@@ -97,26 +97,26 @@ const Top = () => {
                 </div>
             </div>
             <div className='bg-primary rounded-2xl'>
-                <p>Traffic</p>
+                <p className='text-start p-3'>Traffic</p>
                 <Example />
-                <div className='flex justify-around'>
+                <div className='flex justify-around '>
                     <div>
                         <h1 className='text-3xl'>33%</h1>
-                        <div className='flex gap-2 items-center'>
+                        <div className='flex gap-1 items-center'>
                             <span className='w-2 h-2 rounded-full bg-[#9A52DA]'></span>
                             <p>Facebook</p>
                         </div>
                     </div>
                     <div>
                         <h1 className='text-3xl'>55%</h1>
-                        <div className='flex gap-2 items-center'>
+                        <div className='flex gap-1 items-center'>
                             <span className='w-2 h-2 rounded-full bg-red-500'></span>
                             <p>Youtube</p>
                         </div>
                     </div>
                     <div>
                         <h1 className='text-3xl'>12%</h1>
-                        <div className='flex gap-2 items-center'>
+                        <div className='flex gap-1 items-center'>
                             <span className='w-2 h-2 rounded-full bg-[#0466C2]'></span>
                             <p>Direct Search</p>
                         </div>
